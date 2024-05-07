@@ -1,0 +1,12 @@
+-w2 -es2
+
+-cpp
+
+-iC:/GitHub/naldodj-hb_namespace/include/hb_namespace.ch
+
+./hb_source1.prg
+./hb_source2.prg
+./hb_source3.prg
+./hb_source4.prg
+
+-o./${hb_plat}/${hb_comp}/${hb_name}

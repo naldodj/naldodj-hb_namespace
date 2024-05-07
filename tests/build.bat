@@ -1,0 +1,1 @@
+call f:\minigui\batch\hbmk2.bat %* hb_source.hbp
