@@ -15,6 +15,11 @@ function Main()
         :MsgInfo("Ola mundo!","hb_source1:"+ProcName())
     END WITH
 
-    hb_Source4()
+    WITH OBJECT hb_Source4():New()
+        :Execute("hb_Source2_NamedParameters")
+        :Execute("hb_Source2_hb_NamedParametersKey")
+        :Execute("hb_Source3_NamedParameters")
+        :Execute("hb_Source3_hb_NamedParametersKey")
+    END WITH
 
 return(nil)

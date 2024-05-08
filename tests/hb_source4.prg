@@ -1,11 +1,9 @@
-#include "minigui.ch"
+#include "C:\GitHub\naldodj-hb_namespace\include\hb_namespace.ch"
 
-function hb_Source4()
-    hb_Source2_NamedParameters()
-    hb_Source2_hb_NamedParametersKey()
-    hb_Source3_NamedParameters()
-    hb_Source3_hb_NamedParametersKey()
-return(nil)
+HB_NAMESPACE hb_source4 METHOD "hb_Source2_NamedParameters" POINTER @hb_Source2_NamedParameters(),;
+                               "hb_Source2_hb_NamedParametersKey" POINTER @hb_Source2_hb_NamedParametersKey(),;
+                               "hb_Source3_NamedParameters" POINTER @hb_Source3_NamedParameters(),;
+                               "hb_Source3_hb_NamedParametersKey" POINTER @hb_Source3_hb_NamedParametersKey()
 
 static function hb_Source2_NamedParameters()
     local cFunction as character:="NamedParameters"

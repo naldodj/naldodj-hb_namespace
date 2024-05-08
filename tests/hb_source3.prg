@@ -1,5 +1,3 @@
-#include "hbclass.ch"
-#include "minigui.ch"
 #include "C:\GitHub\naldodj-hb_namespace\include\hb_namespace.ch"
 
 HB_NAMESPACE hb_source3 METHOD "NamedParameters" POINTER @NamedParameters() , "NamedParametersKey" POINTER @NamedParametersKey()
