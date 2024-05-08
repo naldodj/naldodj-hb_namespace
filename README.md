@@ -1,7 +1,8 @@
 # naldodj-hb_namespace
 Simular o uso e NameSpace em Harbour
 
-```
+```xBase
+
 #IFNDEF _HB_NAMESPACE_CH
 
     #DEFINE _HB_NAMESPACE_CH
@@ -26,5 +27,13 @@ Simular o uso e NameSpace em Harbour
 ;;
 
 #ENDIF
+
+```
+
+```xBase
+#include "C:\GitHub\naldodj-hb_namespace\include\hb_namespace.ch"
+
+HB_NAMESPACE hb_source2 METHOD "NamedParameters" POINTER @NamedParameters(),
+                               "NamedParametersKey" POINTER @NamedParametersKey()
 
 ```
