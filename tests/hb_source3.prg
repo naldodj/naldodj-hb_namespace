@@ -1,6 +1,7 @@
 #include "C:\GitHub\naldodj-hb_namespace\include\hb_namespace.ch"
 
-HB_NAMESPACE hb_source3 METHOD "NamedParameters" POINTER @NamedParameters() , "NamedParametersKey" POINTER @NamedParametersKey()
+HB_NAMESPACE hb_source3 METHOD "NamedParameters" POINTER @NamedParameters(),;
+                               "NamedParametersKey" POINTER @NamedParametersKey()
 
 static Function NamedParameters(hParameters as hash)
     local cMsg:=HB_HGETDEF(hParameters,"cMsg","") as character
