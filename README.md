@@ -37,3 +37,13 @@ HB_NAMESPACE hb_source2 METHOD "NamedParameters" POINTER @NamedParameters(),
                                "NamedParametersKey" POINTER @NamedParametersKey()
 
 ```
+
+```xBase
+static function hb_Source2_NamedParameters()
+    local cFunction as character:="NamedParameters"
+    WITH OBJECT hb_source2():New()
+        :Execute(cFunction,{"cTitle"=>ProcName(),"cMsg"=>"Ola mundo!"})
+        :Execute(cFunction,{"cMsg"=>"Ola mundo!","cTitle"=>ProcName()})
+    END WITH
+return(nil)
+```
