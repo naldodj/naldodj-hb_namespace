@@ -10,4 +10,4 @@
 
 *.tlpp linguist-language=xBase
 
-*.hb linguist-language=ini
+*.hb linguist-language=xBase
